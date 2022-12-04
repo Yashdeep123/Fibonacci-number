@@ -1,0 +1,15 @@
+
+// Most efficient way for solving fibonacci series in swift 
+
+
+class Solution {
+    func fib(_ n: Int) -> Int {
+        if n >= 2
+        {
+            var result = fib(n-1) + fib(n-2)
+            
+            return result
+        }
+            else {return n}
+    }
+}
